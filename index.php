@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $student_id = mysqli_real_escape_string($conn, $_POST['student_id']);
     $password = mysqli_real_escape_string($conn, $_POST['password']);
 
-    // Checking user from database
+    // Checking user from database 
     $sql = "SELECT * FROM users WHERE student_id='$student_id' AND password='$password'";
     $result = mysqli_query($conn, $sql);
 
