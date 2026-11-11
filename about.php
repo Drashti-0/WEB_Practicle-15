@@ -7,7 +7,7 @@ if (!isset($_SESSION['student_id'])) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head> 
     <meta charset="UTF-8">
     <title>About StudentHub</title>
     <link rel="stylesheet" href="style.css">
