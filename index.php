@@ -2,7 +2,7 @@
 session_start();
 require 'db.php'; 
 
-$error = "";
+$error = ""; 
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $student_id = mysqli_real_escape_string($conn, $_POST['student_id']);
