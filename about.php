@@ -12,7 +12,7 @@ if (!isset($_SESSION['student_id'])) {
     <title>About StudentHub</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body> 
     <div class="card card-wide">
         <h2 style="text-align: center; margin-bottom: 15px;">About StudentHub</h2>
         <p style="font-size: 14px; line-height: 1.5; color: #333; margin-bottom: 20px;">
