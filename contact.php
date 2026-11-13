@@ -5,7 +5,7 @@ if (!isset($_SESSION['student_id'])) {
     exit();
 }
 ?>
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 <head>
     <meta charset="UTF-8">
