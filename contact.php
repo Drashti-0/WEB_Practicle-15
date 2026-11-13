@@ -9,7 +9,7 @@ if (!isset($_SESSION['student_id'])) {
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Contact Us</title>
+    <title>Contact Us</title> 
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
